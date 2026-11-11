@@ -1,16 +1,15 @@
 # Flight Price Monitoring Automation
-## CGK (Jakarta) → CTS (Sapporo, Japan) | November 2027
 
-An automated flight price monitoring system that monitors round-trip flights from **Soekarno-Hatta International Airport (CGK)**, Jakarta, Indonesia to **New Chitose Airport (CTS)**, Sapporo, Japan for travel during **November 1–30, 2027** with a budget threshold of **IDR 7,500,000 per passenger**.
+An automated flight price monitoring system that monitors round-trip flights.
 
 ---
 
 ### 1. Features
 - **Accurate Flight Tracking**: Integrates with live GDS (Amadeus API) and aggregates direct deep links into Google Flights, Skyscanner, and Traveloka.
-- **Schedule Horizon Intelligence**: Monitors the 330–360 day airline booking horizon. When November 2027 schedules load into GDS/airline booking systems, fares are immediately captured.
+- **Schedule Horizon Intelligence**: Monitors the 330–360 day airline booking horizon. schedules load into GDS/airline booking systems, fares are immediately captured.
 - **Price Trend & History Tracking**: Stores all search runs, price points, and historical trends in an embedded SQLite database (`flight_tracker.db`).
 - **Smart Alert Triggers**:
-  1. Ticket available at or under target budget (**≤ IDR 7,500,000**).
+  1. Ticket available at or under target budget.
   2. Significant price drop (**≥ 5% decrease** from previous recorded fare).
   3. New all-time lowest price discovered.
 - **Telegram Notification Integration**:
