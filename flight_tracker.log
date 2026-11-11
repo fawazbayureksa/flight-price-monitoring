@@ -1,0 +1,60 @@
+[2026-11-11 17:36:48] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:36:48] [INFO] flight_tracker: Starting flight search cycle: Jakarta (CGK) -> Sapporo (CTS) (2027-11)
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Recorded search run #1 (0 offers returned from active APIs).
+[2026-11-11 17:36:48] [INFO] flight_tracker: No new qualifying flight alerts triggered this run.
+[2026-11-11 17:36:48] [INFO] flight_tracker: Flight search cycle completed successfully.
+[2026-11-11 17:36:48] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:36:56] [INFO] flight_tracker: Verifying Telegram configuration...
+[2026-11-11 17:36:56] [INFO] flight_tracker: Sending test message to Telegram...
+[2026-11-11 17:36:57] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:36:57] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:37:02] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:37:02] [INFO] flight_tracker: Starting flight search cycle: Jakarta (CGK) -> Sapporo (CTS) (2027-11)
+[2026-11-11 17:37:02] [INFO] flight_tracker: Using baseline market route data for verification...
+[2026-11-11 17:37:02] [INFO] flight_tracker: Recorded search run #2 with 4 offers. Lowest: IDR 6,450,000
+[2026-11-11 17:37:02] [INFO] flight_tracker: Found 4 qualifying alerts to send to Telegram.
+[2026-11-11 17:37:02] [INFO] flight_tracker: Dispatching [WITHIN BUDGET] alert for Scoot @ IDR 6,980,000...
+[2026-11-11 17:37:03] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:37:03] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:37:03] [INFO] flight_tracker: Dispatching [WITHIN BUDGET] alert for VietJet Air @ IDR 6,450,000...
+[2026-11-11 17:37:05] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:37:05] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:37:05] [INFO] flight_tracker: Dispatching [WITHIN BUDGET] alert for AirAsia @ IDR 7,250,000...
+[2026-11-11 17:37:06] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:37:06] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:37:06] [INFO] flight_tracker: Dispatching [WITHIN BUDGET] alert for Philippine Airlines @ IDR 7,450,000...
+[2026-11-11 17:37:07] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:37:07] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:37:07] [INFO] flight_tracker: Flight search cycle completed successfully.
+[2026-11-11 17:37:07] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:44:41] [INFO] flight_tracker: Verifying Telegram configuration...
+[2026-11-11 17:44:41] [INFO] flight_tracker: Sending test message to Telegram...
+[2026-11-11 17:44:42] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:44:42] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:44:46] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:44:46] [INFO] flight_tracker: Starting flight search cycle: Jakarta (CGK) -> Sapporo (CTS) (2027-11)
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Amadeus API credentials not configured in .env. Skipping Amadeus lookup.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Recorded search run #3 (0 offers returned from active APIs).
+[2026-11-11 17:44:46] [INFO] flight_tracker: No new qualifying flight alerts triggered this run.
+[2026-11-11 17:44:46] [INFO] flight_tracker: Flight search cycle completed successfully.
+[2026-11-11 17:44:46] [INFO] flight_tracker: ============================================================
+[2026-11-11 17:45:53] [INFO] flight_tracker: Verifying Telegram configuration...
+[2026-11-11 17:45:53] [INFO] flight_tracker: Sending test message to Telegram...
+[2026-11-11 17:45:54] [WARNING] flight_tracker: HTTP error 400 sending Telegram alert: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+[2026-11-11 17:45:54] [ERROR] flight_tracker: ACTION REQUIRED: The user has not started a conversation with the Telegram bot yet! Please open https://t.me/RexxTripHunterBot and click /start.
+[2026-11-11 17:47:34] [INFO] flight_tracker: Verifying Telegram configuration...
+[2026-11-11 17:47:34] [INFO] flight_tracker: Sending test message to Telegram...
+[2026-11-11 17:47:35] [INFO] flight_tracker: Telegram notification delivered successfully.
